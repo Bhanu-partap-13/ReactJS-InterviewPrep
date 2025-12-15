@@ -56,3 +56,22 @@
 // Uncontrolled components - In React, uncontrolled components are form elements that manage their own state internally, rather than relying on React state. You can access the value of an uncontrolled component using refs. We are storing the values directly in the DOM Elements.
 
 
+// http methods - ( Connecting data from API to server ) HTTP methods are used to perform actions on resources in a web application. The most common HTTP methods are GET, POST, PUT, DELETE, PATCH, and OPTIONS.
+
+// Routing - Routing in ReactJS is the process of navigating between different components or pages within a React application. It allows you to create a single-page application (SPA) where users can navigate without triggering a full page reload.
+
+//STEP1: npm install react-router-dom
+//STEP2: In main.jsx we have to import the VrowserRouter from rect-router-dom
+// we have used the routes and route in the App.jsx file.
+//.
+// React Router - React Router is a popular library used for routing in React applications. It provides a way to handle navigation and rendering of components based on the URL in a single-page application (SPA).
+
+//link - 
+// useNavigate - It is a Hook provided by React Router that allows you to programmatically navigate to different routes within your application. (to navigate between different routes programmatically)
+// Passing data via wuery parameters - 
+// Step 1:
+// first we have to import the routes into the file in the App.jsx, 
+// Step 2: 
+// then in Home.jsx then we ahve to use the hook useNavigate in the home page. in which we will navigate the user to the specific product using query parameter.
+// Step 3:
+// then in the Product.jsx file we will use the useSearchParams hook to get the specific product details using the query paramaters.

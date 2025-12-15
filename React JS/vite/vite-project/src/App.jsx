@@ -70,14 +70,25 @@ import UnControlledFn from './components/unControlledFn.jsx';
 import UnControlled from './components/que1.jsx';
 import FetchData from './components/FetchData.jsx';
 import Fetch from './components/Fetch.jsx';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home.jsx';
+import About from './components/About.jsx';
+import HomeQuery from './components/HomeQuery.jsx';
+import ProductQuery from './components/ProductQuery.jsx';
+
 function App() {
   return (
     <div>
-      <Countdown />
-      <FetchData />
-      <UnControlledFn />
-      <UnControlled />
-      <Fetch />
+      <Routes>
+        <Route path='/' element={<HomeQuery />} />
+        <Route path='/product' element={<ProductQuery />} />
+      </Routes>
+     {/* <Countdown /> */}
+     {/*<FetchData />*/}
+     {/*<UnControlledFn />}*/}
+     {/* <UnControlled /> */}
+     {/* <Fetch /> */}
+      
     </div>
   )
 }
