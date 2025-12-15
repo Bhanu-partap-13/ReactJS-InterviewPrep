@@ -66,7 +66,7 @@
 //.
 // React Router - React Router is a popular library used for routing in React applications. It provides a way to handle navigation and rendering of components based on the URL in a single-page application (SPA).
 
-//link - 
+//link - It is a component provided by React Router that allows you to create navigation links in your application. (to navigate between different routes)
 // useNavigate - It is a Hook provided by React Router that allows you to programmatically navigate to different routes within your application. (to navigate between different routes programmatically)
 // Passing data via wuery parameters - 
 // Step 1:
